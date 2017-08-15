@@ -27,7 +27,7 @@ In order to display this webpage you need a web browser.
 Clone the repository:
 
 ```shell
-git clone https://github.com/volcain-io/portfolio-site.git
+git clone https://github.com/volcain-io/fswd-portfolio-website.git
 cd portfolio-site/
 ```
 
