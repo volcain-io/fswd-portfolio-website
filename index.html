@@ -1,0 +1,104 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Portfolio Site</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Google Fonts: Open Sans -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
+    <!-- WeLoveIconFonts: Brandico -->
+    <link href="http://weloveiconfonts.com/api/?family=brandico" rel="stylesheet">
+    <!-- Main css -->
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header id="header">
+        <img class="logo" src="img/volcain.svg" alt="Logo of volcain">
+        <div class="right">
+            <h1 class="full-name text-center text-uppercase">Volkan Erdogan</h1>
+            <p class="info text-right text-uppercase">Full Stack Ninja</p>
+        </div>
+    </header>
+
+    <hr>
+
+    <!-- MAIN -->
+    <main id="main">
+        <!-- SECTION: ABOUT ME -->
+        <section id="about-me" class="margin-2">
+            <h2>About Me</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <picture>
+                <source media="(min-width: 750px)" srcset="img/main-800_large_1x.jpg 1x, img/main-1600_large_2x.jpg 2x" />
+                <source media="(min-width: 500px)" srcset="img/main-medium.jpg" />
+                <img class="img-center" src="img/main-small.jpg" alt="Appify">
+            </picture>
+        </section>
+
+        <!-- SECTION: FEATURED WORK -->
+        <section id="featured-work" class="text-secondary">
+            <h2>Featured Work</h2>
+            <div class="flex-container">
+                <article>
+                    <figure>
+                        <picture>
+                            <source media="(min-width: 750px)" srcset="img/featured-work/world-256_large_1x.png 1x, img/featured-work/world-512_large_2x.png 2x" />
+                            <source media="(min-width: 500px)" srcset="img/featured-work/world-medium.png" />
+                            <img class="img-center" src="img/featured-work/world-small.png" alt="URL Shortener">
+                        </picture>
+                        <h3 class="text-primary text-center text-uppercase">URL Shortener</h3>
+                        <figcaption class="text-center">
+                            <a href="https://github.com/volcain-io/url-shortener/" target="_blank">
+                                <span class="brandico-github"></span>
+                                <span class="hide">https://github.com/volcain-io/url-shortener/</span>
+                            </a>
+                        </figcaption>
+                    </figure>
+                </article>
+                <article>
+                    <figure>
+                        <picture>
+                            <source media="(min-width: 750px)" srcset="img/featured-work/inventory-256_large_1x.png 1x, img/featured-work/inventory-512_large_2x.png 2x" />
+                            <source media="(min-width: 500px)" srcset="img/featured-work/inventory-medium.png" />
+                            <img class="img-center" src="img/featured-work/inventory-small.png" alt="Inventory App Icon">
+                        </picture>
+                        <h3 class="text-primary text-center text-uppercase">Inventory App</h3>
+                        <figcaption class="text-center">
+                            <a href="https://github.com/volcain-io/InventoryApp/" target="_blank">
+                                <span class="brandico-github"></span>
+                                <span class="hide">https://github.com/volcain-io/InventoryApp/</span>
+                            </a>
+                        </figcaption>
+                    </figure>
+                </article>
+                <article>
+                    <figure>
+                        <picture>
+                            <source media="(min-width: 750px)" srcset="img/featured-work/search-256_large_1x.png 1x, img/featured-work/search-512_large_2x.png 2x" />
+                            <source media="(min-width: 500px)" srcset="img/featured-work/search-medium.png" />
+                            <img class="img-center" src="img/featured-work/search-small.png" alt="Certificates">
+                        </picture>
+                        <h3 class="text-primary text-center text-uppercase">Image Search</h3>
+                        <figcaption class="text-center">
+                            <a href="https://github.com/volcain-io/image-search/" target="_blank">
+                                <span class="brandico-github"></span>
+                                <span class="hide">https://github.com/volcain-io/image-search/</span>
+                            </a>
+                        </figcaption>
+                    </figure>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer id="footer">
+        <p class="text-center">©Copyright 2017 by Volkan Erdogan. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
