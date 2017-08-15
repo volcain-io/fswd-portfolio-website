@@ -1,17 +1,8 @@
-/*
- After you have changed the settings under responsive_images
- run this with one of these options:
-  "grunt" alone creates a new, completed images directory
-  "grunt clean" removes the images directory
-  "grunt responsive_images" re-processes images without removing the old ones
-*/
-
 module.exports = function(grunt) {
-
     grunt.initConfig({
         /* Generate large responsive images */
         responsive_images: {
-            dev: {
+            logo: {
                 options: {
                     engine: 'im',
                     sizes: [{
@@ -32,11 +23,6 @@ module.exports = function(grunt) {
                         quality: 40
                     }]
                 },
-
-                /*
-                You don't need to change this part if you don't change
-                the directory structure.
-                */
                 files: [{
                     expand: true,
                     src: ['*.{gif,jpg,png}'],
@@ -44,7 +30,7 @@ module.exports = function(grunt) {
                     dest: 'img/'
                 }]
             },
-            fw: {
+            featured_work: {
                 options: {
                     engine: 'im',
                     sizes: [{
@@ -86,12 +72,6 @@ module.exports = function(grunt) {
             logo: {
                 src: 'img_src/logo.svg',
                 dest: 'img/volcain.svg'
-            },
-            featured_work: {
-                expand: true,
-                cwd: 'img_src/featured-work/',
-                src: '*',
-                dest: 'img/featured-work/'
             }
         },
 
